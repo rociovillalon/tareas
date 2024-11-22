@@ -1,0 +1,90 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6fc;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Colores y encabezados */
+h1, h2 {
+    color: #6a0dad; /* Lila oscuro */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#grande.color-lila {
+    color: #9a4dbe; /* Lila suave */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Secciones */
+.section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #6a0dad; /* Línea lila */
+    background-color: #f3eaf7; /* Fondo lila claro */
+    border-radius: 5px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.section ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #6a0dad;
+    font-weight: bold;
+}
+
+/* Imagen */
+img {
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #6a0dad;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Enlaces */
+a {
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
